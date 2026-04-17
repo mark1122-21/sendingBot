@@ -1,0 +1,54 @@
+{
+  "authorized_users": {
+    "6545531237": {
+      "authorized_by": "SYSTEM",
+      "authorized_at": "2026-04-13T12:54:51.359572",
+      "username": "Admin"
+    },
+    "6337061396": {
+      "authorized_by": "HST698",
+      "authorized_at": "2026-04-13T13:02:19.573499",
+      "username": ""
+    }
+  },
+  "access_codes": {
+    "OWK475": {
+      "code": "OWK475",
+      "created_by": 6545531237,
+      "created_at": "2026-04-13T12:54:51.360267",
+      "max_users": 50000,
+      "users_used": [],
+      "is_active": false,
+      "notes": "No longer working"
+    },
+    "JYZ822": {
+      "code": "JYZ822",
+      "created_by": 6545531237,
+      "created_at": "2026-04-13T12:54:53.482576",
+      "max_users": 50000,
+      "users_used": [],
+      "is_active": true,
+      "notes": ""
+    },
+    "MBX053": {
+      "code": "MBX053",
+      "created_by": 6545531237,
+      "created_at": "2026-04-13T12:56:54.018376",
+      "max_users": 10,
+      "users_used": [],
+      "is_active": true,
+      "notes": ""
+    },
+    "HST698": {
+      "code": "HST698",
+      "created_by": 6545531237,
+      "created_at": "2026-04-13T12:57:01.255658",
+      "max_users": 10,
+      "users_used": [
+        6337061396
+      ],
+      "is_active": true,
+      "notes": ""
+    }
+  }
+}
