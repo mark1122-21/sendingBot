@@ -32,8 +32,9 @@ from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQu
 
 # ===================== CONFIGURATION =====================
 
-TELEGRAM_BOT_TOKEN = "7602491205:AAGZ2XXo6gMyPXc4HRS5CdzGRW2FUhZW03o"
-ADMIN_USER_ID = 6545531237
+import os
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "YOUR_TOKEN_HERE")
+ADMIN_USER_ID = int(os.environ.get("ADMIN_USER_ID", "0"))
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 EMAIL_DELAY = 10
